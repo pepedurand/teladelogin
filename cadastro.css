@@ -146,3 +146,8 @@ p a:hover {
     display: none;
 
 }
+
+.saircaixa {
+    display: flex;
+    justify-content: center;
+}

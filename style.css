@@ -131,3 +131,22 @@ p a:hover {
 .fa-eye:hover {
     color:#ffffff
 }
+
+#error {
+    color: red;
+    text-align: center;
+    display: none;
+    margin-bottom: 20px;
+}
+
+#sucesso {
+    color: green;
+    text-align: center;
+    display: none;
+
+}
+
+.saircaixa {
+    display: flex;
+    justify-content: center;
+}

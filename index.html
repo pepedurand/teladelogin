@@ -13,20 +13,21 @@
     <div class="container">
         <div class="card">
             <h1>Entrar</h1>
-
+            <div id="error">Revise seus dados</div>
+            <div id="sucesso">Você está logado</div>
             <div class="label-float">
                 <input type="text" id="usuario" placeholder="" required>
-                <label for="usuario">Usuário</label>
+                <label for="usuario" id="usuariolabel">Usuário</label>
             </div>
 
             <div class="label-float">
                 <input type="password" id="senha" placeholder="" required>
-                <label for="senha">Senha</label>
+                <label for="senha" id="senhalabel">Senha</label>
                 <i class="fa fa-eye" aria-hidden="false"></i>
             </div>
 
             <div class="justify-center">
-                <button>Entrar</button>
+                <button onclick='entrar()'>Entrar</button>
             </div>
 
             <div class="justify-center">
@@ -36,7 +37,7 @@
             <p>Não tem uma conta? <a href='cadastro.html'>Cadastre-se</a></p>
 
             <script src="script.js"></script>
-
+            <script src="login.js"></script>
 
         </div>
     </div>
